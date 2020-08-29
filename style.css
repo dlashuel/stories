@@ -43,3 +43,29 @@ ul.list-unstyled{
     font-family: 'Raleway', sans-serif;
     color: #f0eae0;
 }
+
+/* DIDN'T WORK */
+li a.raleway:hover{
+    font-family: #cdad87;
+}
+.margin-left{
+    margin-left: .25rem;
+}
+.margin-bottom{
+    margin-bottom: 1.25rem;
+}
+
+/* Cards*/
+.card{
+    background-color:#cdad87;
+    border-radius: 1rem;
+}
+.card-body:nth-child(2){
+    background-color:white;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+.round_img{
+    border-radius: 50%;
+    height: 2rem;
+}
