@@ -1,0 +1,45 @@
+body{
+    
+}
+.jumbotron{
+    background-image: url("images/bamage.png");
+    background-size: 100%;
+    min-height: 50vh;
+}
+
+/* Navbar & Search box & Filter */
+/* Navbar */
+nav li a:hover{
+    color: #cdad87;
+}
+/* Searchbox */
+.search_stories{
+    border-radius: 0;
+    border: none;
+    height: 1.5rem;
+    background-color: #cdad87;
+    opacity: .8;
+ 
+}
+.search_stories::placeholder{
+    color: #f0eae0;
+}
+input{
+    color: #cdad87;
+}
+/* Filter */
+ul.list-unstyled{
+    margin-top: 5rem;
+}
+
+/* Fonts Classes */
+.dancing_script{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 600;
+    color: #f0eae0;
+    font-size: 1.5rem;
+}
+.raleway{
+    font-family: 'Raleway', sans-serif;
+    color: #f0eae0;
+}
