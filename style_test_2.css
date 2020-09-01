@@ -123,13 +123,14 @@ li a.raleway:hover{
 
 /* Cards*/
 .card{
-    background-color:#90afc5;
-    border-radius: 0rem 1rem 1rem 1rem;
+    background-image:url(images/paper_2.png);
+    background-color:#35424b;
+    border-radius: 0rem 0rem 0rem 0rem;
 }
 .card-body:nth-child(2){
-    background-color:white;
-    border-bottom-right-radius: 1rem;
-    border-bottom-left-radius: 1rem;
+    background-image: url(images/paper_3.png);
+    border-bottom-right-radius: 0rem;
+    border-bottom-left-radius: 0rem;
 }
 .round_img{
     border-radius: 50%;
