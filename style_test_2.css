@@ -137,6 +137,9 @@ li a.raleway:hover{
     height: 2rem;
     margin-right: 0rem;
 }
+.card-shadow{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px;
+} 
 /*Testing*/
 .round_img-t{
     border-radius: 50%;
