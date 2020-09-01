@@ -157,3 +157,6 @@ footer{
     background-color: whitesmoke;
     width: 100%;
 }
+footer i {
+margin-right: .5rem;
+}
