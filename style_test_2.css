@@ -8,6 +8,9 @@ body{
     background-size: 100%;
     min-height: 50vh;
 }
+.container-fluid{
+    padding-bottom: 2.5rem;
+}
 
 /* Navbar & Search box & Filter */
 /* Navbar */
@@ -95,6 +98,13 @@ ul.list-unstyled{
 .light_brown{
     color: #cdad87;
 }
+.text-color{
+    text-transform: uppercase;
+    background: linear-gradient(to right, #cdad87 0%, #ebe6e3 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+}
 /* DIDN'T WORK */
 li a.raleway:hover{
     font-family: #cdad87;
@@ -180,8 +190,9 @@ footer{
     min-height: 10rem;
     background-color: #2a3132;
     width: 100%;
-    margin: 0% 0%;
+    margin-top: 0% 0%;
     color: whitesmoke;
+ 
 }
 footer i {
 margin-right: .5rem;
@@ -190,6 +201,9 @@ footer h5{
     font-family: 'Raleway', sans-serif;
     font-weight: bolder;
     color: #cdad87;
+}
+footer .container-fluid{
+    padding-bottom: 0;
 }
 #social-icons{
     padding: 20px 20px 20px 20px;
