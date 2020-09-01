@@ -3,7 +3,7 @@ body{
 }
 .backg-img{
     background: linear-gradient(90deg, rgba(42,49,50,1) 0%, rgba(51,107,135,1) 35%, rgba(144,175,197,1) 100%);
-    background-image: url("images/story.png");
+    background-image: url("images/paper_4.png");
     opacity: .95;
     background-size: 100%;
     min-height: 50vh;
